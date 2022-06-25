@@ -1,0 +1,32 @@
+.loaderMain {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 60px;
+        animation-name: example;
+        animation-duration: 2.5s;
+        animation-iteration-count: initial;
+        animation-timing-function: ease-in;
+    }
+    @keyframes example {
+        0% {
+            width: 80px;
+        }
+        // 25% {
+        //     width: 120px;
+        // }
+        40% {
+            width: 250px;
+        }
+        100% {
+            width: 250px;
+        }
+    }
+}
